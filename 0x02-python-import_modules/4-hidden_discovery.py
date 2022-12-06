@@ -7,7 +7,6 @@ if __name__ == "__main__":
 
     names = dir(module)
 
-    print("{}".format("hidden_4"))
     for name in names:
         if not name.startswith("__"):
             print(name)
