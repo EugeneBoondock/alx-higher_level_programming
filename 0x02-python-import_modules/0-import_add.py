@@ -1,1 +1,1 @@
-__import__("1-calculation")
+__import__("3-infinite_add")
