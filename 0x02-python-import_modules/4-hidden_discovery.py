@@ -9,4 +9,5 @@ if __name__ == "__main__":
 
     print("{}".format("hidden_4"))
     for name in names:
-        print(name)
+        if not name.startswith("__"):
+            print(name)
