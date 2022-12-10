@@ -12,4 +12,4 @@ elif last_d < 6 and last_d != 0:
     print("{} {} is {} and is less than 6 and not 0".format(i, number, last_d))
 
 else:
-    print("{} {} is {} and is 0".format(, number, last_d))
+    print("{} {} is {} and is 0".format(i, number, last_d))
