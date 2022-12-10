@@ -9,4 +9,4 @@ if number > 0:
     print("{} is positive".format(number))
 
 if number == 0:
-    print("{} si zero".format(number))
+    print("{} is zero".format(number))
