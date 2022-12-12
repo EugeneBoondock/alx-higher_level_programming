@@ -6,7 +6,9 @@ number_str = str(number)
 last = int(number_str[-1])
 
 if number < 0 and last != 0:
-    print(f"Last digit of {number} is -{abs(last)} and is less than 6 and not 0")
+    print(f"Last digit of {number} is -{abs(last)} ", end="")
+    print("and is less than 6 ", end="")
+    print("and not 0")
 
 elif last < 6 and last != 0:
     print(f"Last digit of {number} is {last} and is less than 6 and not 0")
