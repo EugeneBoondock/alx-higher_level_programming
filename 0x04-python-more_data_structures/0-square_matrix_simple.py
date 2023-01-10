@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
+
 def square_matrix_simple(matrix=[]):
-    new_matrix = [list(map(lambda x: x**2 if isinstance(x, int) else x, row)) for row in matrix]
+    new_matrix = []
+    for row in matrix:
+        new_matrix.append([x**2 if isinstance(x, int) else x for x in row])
     return new_matrix
